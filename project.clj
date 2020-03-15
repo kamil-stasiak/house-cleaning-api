@@ -13,6 +13,7 @@
                            [seancorfield/next.jdbc "1.0.405"]
                            [org.postgresql/postgresql "42.2.11.jre7"]
                            [metosin/reitit-pedestal "0.4.2"]
+                           [org.clojure/data.json "1.0.0"]
                            [metosin/reitit "0.4.2"]
                            [nrepl "0.6.0"]
                            [mount "0.1.16"]]

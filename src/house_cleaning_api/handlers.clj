@@ -8,9 +8,9 @@
 
 (count-admins)
 
-(defn is-admin [req]
+(defn is-admin []
   (> (count-admins) 0))
 
 (comment
-  (is-admin [])
+  (is-admin)
   (sql/insert! ds :admins {:login "kamil" :password "password"}))
