@@ -1,7 +1,6 @@
 (ns house-cleaning-api.routes
-  (:require [io.pedestal.http :as http]
-            [mount.core :as mount]
-            [io.pedestal.http.route :as route]))
+  (:require
+   [io.pedestal.http.route :as route]))
 
 ; example route
 (defn respond-hello [request]

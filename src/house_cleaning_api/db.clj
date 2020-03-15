@@ -1,7 +1,6 @@
 (ns house-cleaning-api.db
   (:require [next.jdbc :as jdbc]
-            [next.jdbc.sql :as sql]
-            [next.jdbc.connection :as connection]))
+            [next.jdbc.sql :as sql]))
 
 ; TODO move to ENV
 (def db {:dbtype "postgres"

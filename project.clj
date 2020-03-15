@@ -12,6 +12,8 @@
                            [io.pedestal/pedestal.aws           "0.5.7"] ;; API-Gateway, Lambda, and X-Ray support
                            [seancorfield/next.jdbc "1.0.405"]
                            [org.postgresql/postgresql "42.2.11.jre7"]
+                           [metosin/reitit-pedestal "0.4.2"]
+                           [metosin/reitit "0.4.2"]
                            [nrepl "0.6.0"]
                            [mount "0.1.16"]]
             :repl-options {:init-ns house-cleaning-api.core}
