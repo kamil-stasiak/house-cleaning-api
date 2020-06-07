@@ -9,7 +9,7 @@
          :port 5432
          :user "postgres"
          :password "abc123"})
-
+(+ 1 2 3 4)
 ; TODO add database conection pooling
 (def ds (jdbc/get-datasource db))
 

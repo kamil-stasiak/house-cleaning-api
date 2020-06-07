@@ -6,7 +6,7 @@
   (get-in
    (sql/query ds ["select count(*) from admins"]) [0 :count]))
 
-(count-admins)
+; (count-admins)
 
 (defn is-admin []
   (> (count-admins) 0))
